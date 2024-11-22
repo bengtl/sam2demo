@@ -1,0 +1,9 @@
+.venv
+.mypy_cache
+data/test.ome.zarr
+checkpoints
+data/images/Plate1/*
+!data/images/Plate1/O02_s1_w1.ome.tif
+*/__pycache__/
+poetry.lock
+image_data.npy

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sam2demo"
+version = "0.1.0"
+description = "A Python notebook project using sam2"
+authors = ["Bengt Ljungquist <bengt.ljungquist@nextonicsolutions.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sam2 = "^0.4.1"            # Core package for sam2
+torch = "^2.4"             # PyTorch library
+notebook = "^6.4.0"        # Jupyter Notebook support
+matplotlib = "^3.9.1"      # Plotting library
+opencv-python = "^4.10.0"  # OpenCV library
+bfio = "^2.4.5"            # Bioformats library
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
